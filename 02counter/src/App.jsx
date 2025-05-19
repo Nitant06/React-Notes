@@ -10,6 +10,10 @@ function App() {
   const addValue = () => {
     counter = counter + 1;
     setCounter(counter);
+    // setCounter(prevCounter=>counter+1);
+    // setCounter(prevCounter=>counter+1);
+    // setCounter(prevCounter=>counter+1);
+    // setCounter(prevCounter=>counter+1);
   }
 
   const removeValue = () => {
